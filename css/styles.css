@@ -1,0 +1,492 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Hammersmith One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/hammersmithone/v17/qWcyB624q4L_C4jGQ9IK0O_dFlnruxElg4M.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Hammersmith One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/hammersmithone/v17/qWcyB624q4L_C4jGQ9IK0O_dFlnrtREl.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+* {
+    font-family: 'Hammersmith One', sans-serif;
+    box-sizing: border-box;
+}
+
+#home-page {
+  font-size: 16px;
+  background-image: url(../assets/home-page.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 0;
+}
+
+#mysh-img {
+  width: 550px;
+  height: 75px;
+  margin: 10px  10px 0;
+}
+
+.brand-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+
+.navbar-brand h1 { /* Website name */
+ 
+  color: #191919;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+    
+}
+#nav-list a {
+  text-transform: lowercase;
+  font-weight: 400;
+  font-size: 24px;
+  bottom: 20px;
+  color: #191919;
+
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 0px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+
+
+#heading-img {
+  width: 400px;
+  height: 400px;
+  margin: 100px  10px 0;
+  position: relative;
+  left: 200px;
+    
+}
+
+.heading-img {
+  max-width: 100%;
+  max-height: 100%;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(-4px -4px 10px rgba(255, 255, 255, 0.69));
+  transform: rotate(7.69deg);
+}
+
+.heading-tape {
+    position: absolute;
+    height: 60px;
+    top: 0%;
+    left: 0%;
+    transform: rotate(-22deg);
+}
+/*
+.container2 {
+    position: absolute;
+    top: 920px;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
+}
+*/
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.three-section {
+    position: absolute;
+    top: 1200px;
+    left: 50px;
+}
+
+.white-box {
+    width: 80%;
+}
+
+.section-img {
+    position: absolute;
+    top: -5%;
+    left: -10%;
+    transform: translate(-10%, -50%);
+    transform: scale(33%)
+    
+}
+
+.text-block {
+    position: absolute;
+    background-color: #ed2024;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-85%);
+}
+
+
+
+
+#contact-title {
+    top: 1550px;
+  position: relative;
+  font-family: 'Hammersmith One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+
+.contact-child {
+  position: relative;
+    left: 20%;
+    top: 1555px;
+   
+    
+}
+
+
+.child1{
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+#contact-form {
+    align-items:center;
+}
+
+.inside-contact{
+    width:75%;
+    margin:0 auto; 
+    align-items:center;
+    color: #ffffff;
+   ;
+}
+
+
+.inside-contact input, .inside-contact textarea{
+    width:50%;
+    background-color:#ffffff;
+    border:0px solid rgba(0,0,0,0.48);
+    padding:5px 10px;
+    margin-bottom:20px;
+    
+}
+
+.inside-contact textarea{
+    margin-top: 10px;
+}
+
+.inside-contact input[type=submit]{
+    background-color:#ed2024;
+    color:#ffffff;
+    transition:0.2s;
+    margin:30px 0;
+    
+}
+
+
+.inside-contact input[type=submit]:hover{
+    background-color:#ffffff;
+    color:#ed2024;
+    transition:0.2s;
+}
+
+
+
+
+
+
+/*PORTFOLIO PAGE*/
+#portfolio-home {
+    background-image: url(../assets/portfolio-page.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #ed2024;
+  cursor: pointer;
+    margin-right: 10px;
+    border-radius: 0px;
+    color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+    color: #191919;
+}
+
+.btn.active {
+  background-color: #ffffff;
+  color: #ed2024;
+   
+}
+
+h4 {
+    color: #191919;
+}
+
+.download-portfolio{
+    background-color: #ffffff;
+  border: none;
+  color: #ed2024;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+    
+}
+
+
+
+/*RESUME PAGE*/
+#resume-page {
+   background-image: url(../assets/resume-page.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    color: white; 
+}
+
+.download {
+    top: 310px;
+  background-color: #ed2024;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+    left: 50px;
+    
+}
+
+#resume-sections {
+    top: 300px;
+    position: relative;
+}
+
+.resume-item-name {
+    color: #ed2024;
+}
+
+.resume-section.col-md-6:last-child {
+        width: 100%;
+    }
+
+
+
+/*PORTFOLIO SPECIFIC PAGE*/
+.back-to-portfolio {
+    position: relative;
+    width: 100%;
+}
+
+
+.back-to-portfolio img {
+    width: 100%;
+    height: 100px;
+}
+
+.back-to-portfolio .go-to-portfolio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 12px 24px;
+    border: none;
+    background-color: #ffffff;
+    color: #ed2024;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.back-to-portfolio .go-to-portfolio:hover {
+    background-color: #191919;
+    color: #ffffff;
+}
+
+.portfolio-images {
+    position: relative;
+    width: 100%;
+}
+
+.portfolio-images .t1 {
+   width: 50%;
+   transform: translate(50%);
+}
+
+#portfolio-page {
+    background-image: url(../assets/long-portfolio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+/*ABOUT PAGE*/
+#about-page {
+    background-image: url(../assets/about-page.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    
+}
+
+#about-me {
+    position: relative;
+    top: 300px;
+    background-color: white;
+    
+}
+
+.about-section-title {
+    color: #ed2024;
+}
+
+#about-me-section {
+    
+    
+}
+
+.highlight{
+    text-decoration: underline;
+    color: #ed2024;
+}
+
+.book-title {
+    font-style: italic;
+}
+
+
+
+
+
+
+/*CONTACT PAGE*/
+#contact-page {
+    background-image: url(../assets/contact-page.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+#contact-title2 {
+  position: relative;
+  
+  font-family: 'Hammersmith One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 156px;
+    
+  color: #ffffff;
+    
+  
+}
+
+.contact-child2 {
+  position: relative;
+    left: 20%;
+}

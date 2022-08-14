@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Morgan Slone's Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Hammersmith' rel='stylesheet' type='text/css'>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
+<script src="js/script.js"></script> 
+    
+</head>
+<body id="portfolio-home">
+ <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="mysh-img" alt="Personal logo: mouse face">
+              <img class="brand-img" src="assets/myshka-is-morgan.png">
+              </div>
+          </a>
+
+    
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index.html"> Home</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="portfolio-home.html"> <!-- CHANGE -->
+                <br class="hidden-xs"> Portfolio</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="resume-home.html">
+                <br class="hidden-xs"> Resume</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="about-home.html">
+                <br class="hidden-xs"> About</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="contact-home.html">
+                <br class="hidden-xs"> Contact</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+    
+    
+   <br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+    
+    
+    
+
+<!-- Portfolio Gallery Grid -->
+<div class="main">
+    <br>
+    <br>
+    <br>
+    <!-- DOWNLOAD BUTTON CHANGE LINK!! -->
+    <a href="/assets/Morgan-Slone-Portfolio.pdf" download="resume">
+         <button class="download-portfolio" type="button">download PDF version</button>
+         </a>
+    <br>
+    <br>
+    <br>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('product')"> Product Design</button>
+  <button class="btn" onclick="filterSelection('ux')"> UX/UI</button>
+  <button class="btn" onclick="filterSelection('graphic')"> Graphic</button>
+  <button class="btn" onclick="filterSelection('web')"> Web</button>
+</div>
+
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column product">
+    <a href="portfolio-page-tesselation.html">
+        <div class="content">
+        <img src="assets/tesselation-project/goodwood-final-2.jpg" alt="colored tiles held over CNC routed tessellation pattern on wood" style="width:100%">
+        <h4>tessellation</h4>
+        <p>decorate 3D design</p>
+        </div>
+      </a>
+  </div>
+  <div class="column product">
+    <a href="portfolio-page-outdoor-seating.html">
+        <div class="content">
+        <img src="assets/Old-Majestic-Chair/final-chair/EDITED-final-chair-swivel-detail.jpg" alt="detail of swivel mechanism on a wooden outdoor chair" style="width:100%">
+        <h4>outdoor seating</h4>
+        <p>in use at Old Majestic Brewery (Mobile, AL)</p>
+        </div>
+    </a>
+  </div>
+  <div class="column product">
+    <div class="content">
+    <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+      <h4>Forest</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  
+  <div class="column ux">
+    <div class="content">
+      <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
+      <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column ux">
+    <div class="content">
+    <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column ux">
+    <div class="content">
+    <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column graphic">
+    <div class="content">
+      <img src="/w3images/people1.jpg" alt="Car" style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column graphic">
+    <div class="content">
+    <img src="/w3images/people2.jpg" alt="Car" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column graphic">
+    <div class="content">
+    <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column web">
+    <div class="content">
+    <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+      <h4>web</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+    
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+    
+  
+</body>
+
+
+</html>
